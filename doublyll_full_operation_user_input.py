@@ -41,7 +41,7 @@ class DoublyLinkedList:
             if temp.data == value:
                 if temp.prev:
                     temp.prev.next = temp.next
-                if temp.next:
+                if temp. next:
                     temp.next.prev = temp.prev
                 if temp == self.head:  # Update head if needed
                     self.head = temp.next
@@ -52,7 +52,7 @@ class DoublyLinkedList:
         print(f"{value} not found in the list.")
 
 # Main program
-def main():
+def pinky():
     dll = DoublyLinkedList()
     while True:
         print("\nDoubly Linked List Operations")
@@ -78,4 +78,4 @@ def main():
             print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
-    main()
+    pinky()
